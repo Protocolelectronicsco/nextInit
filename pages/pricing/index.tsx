@@ -6,10 +6,11 @@ import MainLayouts from '@/components/layouts/MainLayouts'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Pricing() {
   return (
     <MainLayouts>
       <div className={styles.description}>
+        <h1>Princing page</h1>
           <h1 className={styles.title}>
             Ir a <Link href="/pagina1">Pagina 1</Link>
           </h1>
